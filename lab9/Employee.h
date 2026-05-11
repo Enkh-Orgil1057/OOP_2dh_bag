@@ -20,14 +20,18 @@ class Employee : public Person
         void setStartDate(Date StartDate);
         
     // baiguulagchuud
-        Employee();
+    /*
+    Anhdagch baiguulagch oruulagui. Uunii shaltgaan ni Employee object ni 
+    zaaval division, boloh jobdescription-toi baih shaardlagatai. Anhdagch baiguulagchaar
+    tedgeert utga onooh bolomjgui tul logic-iin huvid aldaa garah ym
+    */
         Employee(string Name, string SSNum, int Age, string CompanyID, string Title, Date StartDate, Division &division);
 
     // busad classuudtai hariltsaa
-        Spouse *spouse;
-        vector <Child> children;
-        Division *division;
-        vector <JobDescription> description; 
+        Spouse *spouse;             // 0...1 spouse
+        vector <Child> children;    // 0...N child
+        Division *division;         // 1 division
+        vector <JobDescription> description; // 1...N jobdesc
 };
 
 #endif

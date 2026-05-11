@@ -23,6 +23,7 @@ void Employee :: setStartDate(Date StartDate)
     this->StartDate.month = StartDate.month;
     this->StartDate.year = StartDate.year;
 }
+//employee parametertei baiguulagch deer zaaval division ii objectiin zaalt avj ajillana
 Employee :: Employee(
             string Name, 
             string SSNum,
@@ -37,6 +38,6 @@ Employee :: Employee(
     setCompanyID(CompanyID);
     setTitle(Title);
     setStartDate(StartDate);
-    this->spouse = nullptr;
+    this->spouse = nullptr;     //spouse ruu ehleed nullptr utga onoono
     this->division = &division;
 }
