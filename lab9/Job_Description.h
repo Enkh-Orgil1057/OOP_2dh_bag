@@ -1,8 +1,9 @@
 #ifndef JOB_DESCRIPTION_H
 #define JOB_DESCRIPTION_H
 
-#include "Employee.h"
-
+#include <string>
+#include <iostream>
+using namespace std;
 class JobDescription
 {
     private:

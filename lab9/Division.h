@@ -1,7 +1,9 @@
 #ifndef DIVISION_H
 #define DIVISION_H
 
-#include "Employee.h"
+#include <iostream>
+#include <string>
+using namespace std;
 
 class Division
 {

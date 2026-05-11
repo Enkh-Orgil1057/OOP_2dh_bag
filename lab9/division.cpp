@@ -1,6 +1,6 @@
 #include "Division.h"
 
-void Division :: setDivisionName(string DivisonName)
+void Division :: setDivisionName(string DivisionName)
 {
     this->DivisionName = DivisionName;
 }

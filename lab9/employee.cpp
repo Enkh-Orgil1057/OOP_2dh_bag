@@ -1,5 +1,14 @@
 #include "Employee.h"
 
+Employee :: Employee()
+{
+    CompanyID = "hooson";
+    Title = "hooson";
+    StartDate = {0, 0, 0};
+    spouse = nullptr;
+    division = nullptr;
+}
+
 void Employee :: setCompanyID(string CompanyID)
 {
     this->CompanyID = CompanyID;

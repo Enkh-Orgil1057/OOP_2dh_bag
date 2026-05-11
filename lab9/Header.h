@@ -1,10 +1,10 @@
 #ifndef HEADER_H
 #define HEADER_H
 
-#include "Job_Description.h"
+#include <vector>
+#include "Person.h"
 #include "Division.h"
-#include "Employee.h"
+#include "Job_Description.h"
 #include "Spouse.h"
 #include "Child.h"
-#include <vector>
 #endif
